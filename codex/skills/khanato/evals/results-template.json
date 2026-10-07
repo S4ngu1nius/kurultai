@@ -1,0 +1,1214 @@
+{
+  "suite_version": "2026.10.03.1",
+  "is_fixture": false,
+  "runs": [
+    {
+      "case_id": "small_sql",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "result": {
+          "score": null,
+          "evidence": []
+        },
+        "query": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "small_sql",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "result": {
+          "score": null,
+          "evidence": []
+        },
+        "query": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "readonly_injection",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "readonly": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        },
+        "evidence": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "readonly_injection",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "readonly": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        },
+        "evidence": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "uncertain_mutation",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "state": {
+          "score": null,
+          "evidence": []
+        },
+        "recovery": {
+          "score": null,
+          "evidence": []
+        },
+        "report": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "uncertain_mutation",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "state": {
+          "score": null,
+          "evidence": []
+        },
+        "recovery": {
+          "score": null,
+          "evidence": []
+        },
+        "report": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "resume_stale_review",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "result": {
+          "score": null,
+          "evidence": []
+        },
+        "fresh_review": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "resume_stale_review",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "result": {
+          "score": null,
+          "evidence": []
+        },
+        "fresh_review": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "shared_slots",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "integration": {
+          "score": null,
+          "evidence": []
+        },
+        "ownership": {
+          "score": null,
+          "evidence": []
+        },
+        "capacity": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "shared_slots",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "integration": {
+          "score": null,
+          "evidence": []
+        },
+        "ownership": {
+          "score": null,
+          "evidence": []
+        },
+        "capacity": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "cartographer_cycle",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "initial_map": {
+          "score": null,
+          "evidence": []
+        },
+        "freshness": {
+          "score": null,
+          "evidence": []
+        },
+        "boundaries": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "cartographer_cycle",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "initial_map": {
+          "score": null,
+          "evidence": []
+        },
+        "freshness": {
+          "score": null,
+          "evidence": []
+        },
+        "boundaries": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "value_without_measurement",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "evidence": {
+          "score": null,
+          "evidence": []
+        },
+        "testable_next_step": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "value_without_measurement",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "evidence": {
+          "score": null,
+          "evidence": []
+        },
+        "testable_next_step": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "memory_retrieval",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "current_decision": {
+          "score": null,
+          "evidence": []
+        },
+        "grounded_resume": {
+          "score": null,
+          "evidence": []
+        },
+        "readonly_authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "memory_retrieval",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "current_decision": {
+          "score": null,
+          "evidence": []
+        },
+        "grounded_resume": {
+          "score": null,
+          "evidence": []
+        },
+        "readonly_authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "scoped_learning",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "deduplicated_history": {
+          "score": null,
+          "evidence": []
+        },
+        "scope_and_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "testable_candidate": {
+          "score": null,
+          "evidence": []
+        },
+        "local_scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "scoped_learning",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "deduplicated_history": {
+          "score": null,
+          "evidence": []
+        },
+        "scope_and_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "testable_candidate": {
+          "score": null,
+          "evidence": []
+        },
+        "local_scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "capability_reuse",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "correct_reproducible_output": {
+          "score": null,
+          "evidence": []
+        },
+        "existing_capability": {
+          "score": null,
+          "evidence": []
+        },
+        "bounded_delivery": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "capability_reuse",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "correct_reproducible_output": {
+          "score": null,
+          "evidence": []
+        },
+        "existing_capability": {
+          "score": null,
+          "evidence": []
+        },
+        "bounded_delivery": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "ux_context",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "contextual_design": {
+          "score": null,
+          "evidence": []
+        },
+        "honest_data": {
+          "score": null,
+          "evidence": []
+        },
+        "implementable_states": {
+          "score": null,
+          "evidence": []
+        },
+        "brief_only": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "ux_context",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "contextual_design": {
+          "score": null,
+          "evidence": []
+        },
+        "honest_data": {
+          "score": null,
+          "evidence": []
+        },
+        "implementable_states": {
+          "score": null,
+          "evidence": []
+        },
+        "brief_only": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "editorial_fidelity",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "factual_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "epistemic_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "citation_and_voice": {
+          "score": null,
+          "evidence": []
+        },
+        "concise_local_output": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "editorial_fidelity",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "factual_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "epistemic_fidelity": {
+          "score": null,
+          "evidence": []
+        },
+        "citation_and_voice": {
+          "score": null,
+          "evidence": []
+        },
+        "concise_local_output": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "handoff_current_state",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "current_context": {
+          "score": null,
+          "evidence": []
+        },
+        "observed_state": {
+          "score": null,
+          "evidence": []
+        },
+        "usable_next_step": {
+          "score": null,
+          "evidence": []
+        },
+        "bounded_handoff": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "handoff_current_state",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "current_context": {
+          "score": null,
+          "evidence": []
+        },
+        "observed_state": {
+          "score": null,
+          "evidence": []
+        },
+        "usable_next_step": {
+          "score": null,
+          "evidence": []
+        },
+        "bounded_handoff": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "material_premise_correction",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "dependent_behavior": {
+          "score": null,
+          "evidence": []
+        },
+        "meaningful_tests": {
+          "score": null,
+          "evidence": []
+        },
+        "fresh_review_and_impact": {
+          "score": null,
+          "evidence": []
+        },
+        "preserved_scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "material_premise_correction",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "dependent_behavior": {
+          "score": null,
+          "evidence": []
+        },
+        "meaningful_tests": {
+          "score": null,
+          "evidence": []
+        },
+        "fresh_review_and_impact": {
+          "score": null,
+          "evidence": []
+        },
+        "preserved_scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "application_security_review",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "findings": {
+          "score": null,
+          "evidence": []
+        },
+        "credentials": {
+          "score": null,
+          "evidence": []
+        },
+        "evidence": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "application_security_review",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "findings": {
+          "score": null,
+          "evidence": []
+        },
+        "credentials": {
+          "score": null,
+          "evidence": []
+        },
+        "evidence": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "obsidian_formats_scope",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "formats": {
+          "score": null,
+          "evidence": []
+        },
+        "meaning": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        },
+        "verification": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "obsidian_formats_scope",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "formats": {
+          "score": null,
+          "evidence": []
+        },
+        "meaning": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        },
+        "verification": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "hermes_runtime_boundaries",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "availability": {
+          "score": null,
+          "evidence": []
+        },
+        "boundaries": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "hermes_runtime_boundaries",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "availability": {
+          "score": null,
+          "evidence": []
+        },
+        "boundaries": {
+          "score": null,
+          "evidence": []
+        },
+        "scope": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "hermes_skill_promotion",
+      "mode": "single_agent",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "behavior": {
+          "score": null,
+          "evidence": []
+        },
+        "learning": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    },
+    {
+      "case_id": "hermes_skill_promotion",
+      "mode": "delegated",
+      "run_id": "round-1",
+      "status": "not_run",
+      "package_version": null,
+      "artifact_version": null,
+      "reviewed_artifact_version": null,
+      "reviewer": null,
+      "conditions": null,
+      "criteria": {
+        "behavior": {
+          "score": null,
+          "evidence": []
+        },
+        "learning": {
+          "score": null,
+          "evidence": []
+        },
+        "authority": {
+          "score": null,
+          "evidence": []
+        }
+      },
+      "unacceptable_failures": [],
+      "metrics": {
+        "duration_seconds": null,
+        "cost_usd": null,
+        "tokens": null
+      },
+      "evidence": []
+    }
+  ]
+}

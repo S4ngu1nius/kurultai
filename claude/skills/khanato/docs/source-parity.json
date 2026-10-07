@@ -1,0 +1,146 @@
+{
+  "source_version": "2026.10.03-hermes-v1",
+  "target_version": "2026.10.03-claude-v1",
+  "plugin_version": "2.0.0",
+  "scope": "Conteúdo, caminhos e proveniência; não comprova execução ou descoberta no Claude.",
+  "files": [
+    {
+      "source": "agents/openai.yaml",
+      "status": "not_applicable",
+      "reason": "Metadados de descoberta exclusivos do Codex; não distribuir ao Claude."
+    },
+    {
+      "source": "docs/CODEBASE_MAP.md",
+      "status": "remapped",
+      "target": "docs/CODEBASE_MAP.md",
+      "reason": "Mapa próprio da distribuição Claude, sem copiar estado histórico de testes do Codex."
+    },
+    {
+      "source": "evals/cases.json",
+      "target": "evals/cases.json",
+      "status": "adapted"
+    },
+    {
+      "source": "evals/results-template.json",
+      "target": "evals/results-template.json",
+      "status": "adapted"
+    },
+    {
+      "source": "references/00-CONSTITUICAO-ESTRUTURA-FLUXOS.md",
+      "target": "references/00-CONSTITUICAO-ESTRUTURA-FLUXOS.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/01-GRANDE-KHAN.md",
+      "target": "references/01-GRANDE-KHAN.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/02-EMPRESAS-LIDERANCA.md",
+      "target": "references/02-EMPRESAS-LIDERANCA.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/03-EMPRESAS-SQUAD.md",
+      "target": "references/03-EMPRESAS-SQUAD.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/04-CURIA-JURIDICO.md",
+      "target": "references/04-CURIA-JURIDICO.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/05-ARAUTO-MARKETING.md",
+      "target": "references/05-ARAUTO-MARKETING.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/06-VIGIL-SEGURANCA.md",
+      "target": "references/06-VIGIL-SEGURANCA.md",
+      "status": "adapted"
+    },
+    {
+      "source": "references/07-NOUS-IA.md",
+      "target": "references/07-NOUS-IA.md",
+      "status": "adapted"
+    },
+    {
+      "source": "references/08-MISSOES-MEMORIA.md",
+      "target": "references/08-MISSOES-MEMORIA.md",
+      "status": "adapted"
+    },
+    {
+      "source": "references/09-AVALIACAO-KHANATO.md",
+      "target": "references/09-AVALIACAO-KHANATO.md",
+      "status": "adapted"
+    },
+    {
+      "source": "references/10-EXPANSAO.md",
+      "target": "references/10-EXPANSAO.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/11-ORGANIZACAO-FLUXOS.md",
+      "target": "references/11-ORGANIZACAO-FLUXOS.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/12-CARTOGRAPHER-CODEX.md",
+      "target": "references/12-CARTOGRAPHER-CLAUDE.md",
+      "status": "adapted"
+    },
+    {
+      "source": "references/13-REPERTORIO-UX.md",
+      "target": "references/13-REPERTORIO-UX.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/14-SEGURANCA-APLICACOES.md",
+      "target": "references/14-SEGURANCA-APLICACOES.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/15-FORMATOS-OBSIDIAN.md",
+      "target": "references/15-FORMATOS-OBSIDIAN.md",
+      "status": "identical"
+    },
+    {
+      "source": "references/16-HERMES-NO-CODEX.md",
+      "target": "references/16-HERMES-NO-CLAUDE.md",
+      "status": "adapted"
+    },
+    {
+      "source": "scripts/create_eval_workspace.py",
+      "target": "scripts/create_eval_workspace.py",
+      "status": "identical"
+    },
+    {
+      "source": "scripts/test_validate_eval_results.py",
+      "target": "scripts/test_validate_eval_results.py",
+      "status": "identical"
+    },
+    {
+      "source": "scripts/validate_eval_results.py",
+      "target": "scripts/validate_eval_results.py",
+      "status": "identical"
+    },
+    {
+      "source": "SKILL.md",
+      "target": "SKILL.md",
+      "status": "adapted"
+    }
+  ],
+  "additions": [
+    "references/17-AMBIENTE-CLAUDE.md",
+    "references/constituicao.md",
+    "references/empresas.md",
+    "references/organograma.md"
+  ],
+  "counts": {
+    "identical": 14,
+    "adapted": 9,
+    "remapped": 1,
+    "not_applicable": 1
+  }
+}

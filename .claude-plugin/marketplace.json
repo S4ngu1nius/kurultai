@@ -1,0 +1,11 @@
+{
+  "name": "khanato-marketplace",
+  "owner": { "name": "Kurultai" },
+  "plugins": [
+    {
+      "name": "khanato",
+      "source": "./claude",
+      "description": "Khanato: coordenação, execução, memória e verificação proporcionais à tarefa."
+    }
+  ]
+}

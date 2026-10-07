@@ -1,0 +1,15 @@
+{
+  "name": "khanato",
+  "version": "2.0.0",
+  "description": "Khanato: núcleo alinhado ao Codex, coordenação direta, competências sob demanda, segurança, memória e verificação; adaptado a Claude Code, Cowork e Chat.",
+  "author": {
+    "name": "Kurultai"
+  },
+  "keywords": [
+    "agentes",
+    "orquestração",
+    "empresa",
+    "khan",
+    "postgresql"
+  ]
+}

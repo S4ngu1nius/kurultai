@@ -1,0 +1,7 @@
+interface:
+  display_name: "Khanato"
+  short_description: "Missões proporcionais, execução e auditoria com evidências"
+  default_prompt: "Use $khanato para analisar, distribuir, executar e auditar esta demanda."
+
+policy:
+  allow_implicit_invocation: true
