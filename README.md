@@ -1,4 +1,4 @@
-# Kurultai — Khanato, edição pública
+# Khanato — Kurultai, edição pública
 
 Edição pública do **Khanato**, um método de coordenação de agentes de IA: Temüjin, o Grande Khan, coordena, executa e verifica com as competências pertinentes de produto, dados, plataforma, jurídico, marketing, segurança e IA. Há distribuições para **Codex** e **Claude**. O nome vem do kurultai, a assembleia em que o império mongol decidia seus rumos.
 
